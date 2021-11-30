@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Modais Basicos</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<style>
+  body{
+   width: 100%;
+   height: 100%;
+   margin: 0 auto;
+ 
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}    
+.menu-principal{
+    background-color:rgb(51, 151, 197);
+    width: 100%;
+    display: inline-block;
+    height: 80px;
+}
+.header2{
+    height: 1100px;
+    width: 100%;
+    display: inline-block;
+}
+.materias{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display:inline-block;
+    border-bottom: 2px solid rgb(221, 213, 213);
+
+   
+}
+.materias ul li{
+    margin-left:30px ;
+    display: inline-block;
+ 
+}
+.materias ul li a{ 
+    color: rgb(122, 116, 116);
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family:Arial, sans-serif;
+
+}
+.materias:hover ul:hover li:hover a:hover{
+    background-color: #eeeaea1e;
+    border-bottom: 3px rgba(204, 195, 195, 0.801)solid;
+    padding: right 0; 
+    padding-left: 0;
+}
+input{
+    margin-top: 26px;
+    margin-left: 0;
+    background-color: rgb(248, 245, 245) ;
+    border: white 3px;
+    border-radius: 8px;
+    float: right; 
+    height: 25px;
+    width: 37%;  
+   
+} 
+input:hover{
+    border: 0;
+    background-color: #ffffff; 
+}
+.lupa{
+position: relative 10px ;
+    max-width: 25px;
+    float: right;
+    background-color: rgb(51, 151, 197);
+    margin-top: 26px;
+    
+}
+.menu-principal h1{
+    
+    color: whitesmoke;
+    margin-top: 26px;
+    padding: 0;
+   margin:0;
+    height: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float: left;
+      
+}
+.inicio{
+  margin: 25% auto;
+    height:auto;
+    width: 75%;
+    margin-top: 9px;
+ 
+ 
+  
+    
+}
+.inicio img{
+ width: 100%;
+
+  
+}
+.inicio h1{
+   margin-top: 2%;
+    color: rgb(77, 67, 57);
+    text-align:center;
+    font-family: blippo,fantasy;
+
+}
+.inicio h3{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.inicio p{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   text-align:justify;
+ 
+    color: #6a6b6c;
+    font-size: 18px;
+    
+}
+@media only screen and (max-device-width: 768px) {
+    .menu-principal{
+        width: 100%;
+        height: 90px;
+        border-bottom: 2px solid rgb(221, 213, 213);
+
+    }
+    .menu-principal h1{
+        font-size: 25px;
+      
+    }
+    .menu-principal main{
+        width: 100%;
+
+    }
+}
+    @media only screen and (max-device-width: 768px) {
+     input{
+         width: 30%;
+         height: 20px;
+         margin-top: 30px;
+         padding: 0;
+         float:right;
+           
+    }
+    .lupa{
+        float: right;
+        margin-top: 30px;
+    }
+    }
+    
+    @media only screen and (max-device-width: 768px) {
+     .materias   { 
+         width: 100%;
+        height: 130px;
+       
+    
+        }
+        .materias ul{
+            padding:  gray;
+            text-align: center;
+         
+        }
+        .materias ul li{
+          
+            display:list-item;
+           
+            margin-left: 0;
+           list-style: none;
+           
+        }
+        .materias ul li a{
+            width: 100%;
+            font-size: 18px;
+            border-bottom: 1px solid;
+        
+        }
+    }
+    @media only screen and (max-device-width: 768px) {
+      .inicio{
+        height: auto;
+      }
+       .inicio h1 {
+          
+           text-align:center;
+           
+          
+        }
+    }
+    .fim{
+        width: 100%;
+        height: 270px;
+        background-color:#1c2e2e;
+    }
+    .fim h3 {
+        color:whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .fim p{
+        color:whitesmoke;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI',
+         Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       text-transform:capitalize;
+         
+    }
+   .fim img{
+      
+       float:right;
+      padding-right: 5px;
+   }
+</style>
+</head>
+<body>
+    <header class="menu-principal"> 
+      <h1>English Platform</h1>
+     
+      <main>
+     
+          <div>
+            
+            <form >
+              <img src="img/lupa.png" class="lupa">
+              <input type="search" id="texto">
+              
+             
+            </form>
+       </div>
+      </main>
+    </header>
+   <header2 class="menu">
+     <main1>
+      <div class="materias">
+  
+        <ul>
+         <li>
+           <a 
+           href="2index.html">Modais Básicos
+           </a>
+          </li>
+         <li>
+           <a 
+           href="3index.html">Preposições Mais comuns
+            </a>
+          </li>
+         <li>
+           <a
+           href="4index.html">Adjetivos Possessivos
+          </a>
+          </li>
+         <li>
+           <a
+            href="5index.html">Pronomes Pessoais
+          </a>
+          <li>
+            <a href="index.html"> Menu Principal</a>
+          </li>
+          </li>
+        </li>
+        </ul>
+     </main1>
+    </div>
+    </header2>
+   <header3> 
+     <main2>
+       <div class="inicio">
+         <h1> O que são, quais são e como usar os verbos modais?</h1>
+         <img src="img/1.png" alt="">
+         <p>Os verbos modais são palavras que acompanham os verbos principais da frase para expressar algum sentido específico.
+
+          Os “modal verbs” acrescentam uma segunda ideia, que pode ser de possibilidade, habilidade, obrigação ou permissão.
+          
+          Os principais verbos modais em inglês são “Will”, “Would”, “Should”, “Can”, “Could”, “May”, “Might”, “Shall” e “Must”.
+          
+          Agora vamos mostrar como usá-los! </p>
+         <h3>WILL</h3>
+
+<p>Ele expressa a certeza de que algo será feito.
+  “I will do it” – Eu vou fazer isso.
+</p>
+ <h3>WOULD</h3>
+
+<p>Mostra a possibilidade de algo ser feito, normalmente associada a uma condição, a um “se”.
+
+  “I would do it, if I had time to” – Eu faria isso, se eu tivesse tempo.
+  </p>
+<h3>SHOULD</h3>
+
+<p>O “should” é usado para algo que deveria ser feito, mas ainda não foi.
+
+  “I should do it but I still haven’t had the time” – Eu deveria fazer isso, mas eu ainda não tive tempo.
+  </p>
+<h3>CAN</h3>
+
+<p>Ele significa que algo pode sim ser feito, que a pessoa consegue fazê-lo.
+
+  “I can do it today” – Eu posso fazer isso hoje.</p>
+
+<h3>COULD</h3>
+
+<p>“Could” é como o “can”, mas como uma possibilidade normalmente associada a uma condição.
+
+  ” I could do it today, but I forgot” – Eu poderia ter feito isso hoje, mas eu esqueci.</p>
+
+<h3>MAY</h3>
+
+<p>Além de ser o nome do mês de maio, “may” tem os sentidos de que algo pode ser feito e de dar permissão para que algo seja feito.
+
+  “I may do it today” – Eu devo fazer isso hoje, com aquela “vibe” de “Talvez eu faça isso hoje”.
+  
+  “You may do it today” – Você pode fazer isso hoje.</p>
+
+<h3>MIGHT</h3>
+
+<p>“Might” é o passado de “may”, por isso carrega o mesmo significado de possibilidade, mas, por ser passado, trazendo o sentido de menos probabilidade. É como se algo pudesse ser feito, mas talvez não seja.
+
+  “I might do it today. I’m waiting to have time for it” – Eu deveria fazer isso hoje. Eu estou esperando ter tempo para isso.
+  </p>
+<h3>SHALL</h3>
+
+<p>“Shall” é usado para mostrar que algo pode acontecer, mas que depende de uma condição.
+
+  “I shall do it when my mother arrives” – Eu devo fazer isso quando minha mãe chegar.
+  
+  O termo também é usado como um pedido de permissão, para saber se a outra pessoa quer que você faça algo. Um exemplo famoso é o título do filme “Dança comigo?”, com Richard Gere e Jennifer Lopez, que em inglês é “Shall we dance?”.
+  </p>
+<h3>MUST</h3>
+
+<p>O verbo modal “must” mostra obrigação, a certeza de algo tem que ser realmente feito.
+
+  “I must do it” – Eu tenho que fazer isso.
+  
+  Uma associação a ser feita é com as peças “must have” da moda, que são as peças que uma pessoa “tem que ter”.
+       </p>
+
+       </div>
+     </main2>
+   </header3>
+ <header4>
+   <main3>
+     <div class="fim">
+       <h3>grupo:</h3>
+       <p>matheus ferreira <br>Mayra Monteiro  <br>yasmin duarte <br>vitoria cavalcante <br>mardenia <br>
+      rikelmy <br> Thalita <br> Ádila</p>
+      <img src="img/twitter.png" alt="">
+      <img src="img/insta.png.png" alt="">
+      <img src="img/face.png" alt="">
+      <img src="img/whats.png" alt="">
+  
+     </div>
+   </main3>
+ </header4>
+
+ 
+
+
+</body>
+</html>

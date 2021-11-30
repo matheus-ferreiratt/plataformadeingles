@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Preposições Mais Comuns</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<style>
+  body{
+   width: 100%;
+   height: 100%;
+   margin: 0 auto;
+ 
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}    
+.menu-principal{
+    background-color:rgb(51, 151, 197);
+    width: 100%;
+    display: inline-block;
+    height: 80px;
+}
+.header2{
+    height: 1100px;
+    width: 100%;
+    display: inline-block;
+}
+.materias{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display:inline-block;
+    border-bottom: 2px solid rgb(221, 213, 213);
+
+   
+}
+.materias ul li{
+    margin-left:30px ;
+    display: inline-block;
+ 
+}
+.materias ul li a{ 
+    color: rgb(122, 116, 116);
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family:Arial, sans-serif;
+
+}
+.materias:hover ul:hover li:hover a:hover{
+    background-color: #eeeaea1e;
+    border-bottom: 3px rgba(204, 195, 195, 0.801)solid;
+    padding: right 0; 
+    padding-left: 0;
+}
+input{
+    margin-top: 26px;
+    margin-left: 0;
+    background-color: rgb(248, 245, 245) ;
+    border: white 3px;
+    border-radius: 8px;
+    float: right; 
+    height: 25px;
+    width: 37%;  
+   
+} 
+input:hover{
+    border: 0;
+    background-color: #ffffff; 
+}
+.lupa{
+position: relative 10px ;
+    max-width: 25px;
+    float: right;
+    background-color: rgb(51, 151, 197);
+    margin-top: 26px;
+    
+}
+.menu-principal h1{
+    
+    color: whitesmoke;
+    margin-top: 26px;
+    padding: 0;
+   margin:0;
+    height: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float: left;
+      
+}
+.inicio{
+  margin:25% auto;
+    height: auto;
+    width: 75%;
+ margin-top: 9px;
+  
+    
+}
+.inicio h1{
+   margin-top: 2%;
+    color: rgb(77, 67, 57);
+    text-align:center;
+    font-family: blippo,fantasy;
+
+}
+.inicio h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inicio p{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   text-align:justify;
+ 
+    color: #6a6b6c;
+    font-size: 18px;
+    
+}
+@media only screen and (max-device-width: 768px) {
+    .menu-principal{
+        width: 100%;
+        height: 90px;
+        border-bottom: 2px solid rgb(221, 213, 213);
+
+    }
+    .menu-principal h1{
+        font-size: 25px;
+      
+    }
+    .menu-principal main{
+        width: 100%;
+
+    }
+}
+    @media only screen and (max-device-width: 768px) {
+     input{
+         width: 30%;
+         height: 20px;
+         margin-top: 30px;
+         padding: 0;
+         float:right;
+           
+    }
+    .lupa{
+        float: right;
+        margin-top: 30px;
+    }
+    }
+    
+    @media only screen and (max-device-width: 768px) {
+     .materias   { 
+         width: 100%;
+        height: 130px;
+       
+    
+        }
+        .materias ul{
+            padding:  gray;
+            text-align: center;
+         
+        }
+        .materias ul li{
+          
+            display:list-item;
+           
+            margin-left: 0;
+           list-style: none;
+           
+        }
+        .materias ul li a{
+            width: 100%;
+            font-size: 18px;
+            border-bottom: 1px solid;
+        
+        }
+    }
+    @media only screen and (max-device-width: 768px) {
+       .inicio h1 {
+          
+           text-align:center;
+           
+          
+        }
+    }
+    .fim{
+        width: 100%;
+        height: 270px;
+        background-color:#1c2e2e;
+    }
+    .fim h3 {
+        color:whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .fim p{
+        color:whitesmoke;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI',
+         Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       text-transform:capitalize;
+         
+    }
+   .fim img{
+      
+       float:right;
+      padding-right: 5px;
+   }
+</style>
+</head>
+<body>
+    <header class="menu-principal"> 
+      <h1>English Platform</h1>
+     
+      <main>
+     
+          <div>
+            
+            <form >
+              <img src="img/lupa.png" class="lupa">
+              <input type="search" id="texto">
+              
+             
+            </form>
+       </div>
+      </main>
+    </header>
+   <header2 class="menu">
+     <main1>
+      <div class="materias">
+  
+        <ul>
+         <li>
+           <a 
+           href="2index.html">Modais Básicos
+           </a>
+          </li>
+         <li>
+           <a 
+           href="3index.html">Preposições Mais comuns
+            </a>
+          </li>
+         <li>
+           <a
+           href="4index.html">Adjetivos Possessivos
+          </a>
+          </li>
+         <li>
+           <a
+            href="5index.html">Pronomes Pessoais
+          </a>
+          <li>
+            <a href="index.html"> Menu Principal</a>
+          </li>
+          </li>
+        </li>
+        </ul>
+     </main1>
+    </div>
+    </header2>
+   <header3> 
+     <main2>
+       <div class="inicio">
+         <h1>Preposições mais comuns </h1>
+     <h2>21 preposições em inglês que não podem faltar no seu vocabulário</h2>
+     <h2>Preposição de tempo — Time Prepositions</h2> 
+     <p> Essa categoria indica que uma situação ocorreu antes ou depois de outra. Pode ser alguma data do passado, específica ou não, e sinalizar o princípio ou o fim de uma ação. Vejamos alguns exemplos. <br>
+      <br>
+      <strong>1. After</strong> — depois de <br>
+      I can wait for you after my class (Eu posso esperar por você depois da minha aula). <br>
+      <br>
+      <strong>2. Ago</strong> — algum período no passado <br>
+      My grandpa died four years ago (Meu avô morreu há quatro anos). <br>
+      <br>
+     <strong> 3. Around</strong> — por volta de <br>
+      I will study around 9 p.m. (Eu estudarei por volta das nove horas da noite). <br>
+      <br>
+      <strong>4. Before</strong> — antes de <br>
+      You should always check your e-mails before going to work (Você deve sempre ver seus e-mails antes de ir ao trabalho). <br>
+      <br>
+     <strong> 5. For</strong> — duração <br>
+      I worked in that company for two years (Eu trabalhei naquela empresa por dois anos). <br>
+      <br>
+    <strong>  6. Since</strong> — início de uma ação <br>
+      She has been working in France since last month (Ela trabalha na França desde o mês passado). <br>
+      <br>
+     <strong> 7. Until or Till</strong> — fim de uma ação <br>
+      He will be in Brazil until July (Ele estará no Brasil até julho). <br></p>
+      <br>
+     <h2>Preposição de lugar — Place Prepositions</h2> 
+     <br>
+     <p> Quando precisamos indicar um local onde estão pessoas e objetos usamos as preposições de lugar. Veja. <br>
+      <br>
+     <strong> 8. Above</strong> — acima <br>
+      Read the text above (Leia o texto acima). <br>
+      <br>
+      <strong>9. Across</strong> — do outro lado <br>
+      I live across the street (Eu moro do outro lado da rua). <br>
+      <br>
+     <strong> 10. Along</strong> — movimentar-se em um ponto ou por um lugar <br>
+      She likes to run along the beach (Ela gosta de correr pela praia). <br>
+      <br>
+      <strong>11. Among</strong> — entre um grupo de pessoas ou objetos <br>
+      There is a big problem among the students (Existe um problema enorme entre os alunos). <br>
+      <br>
+     <strong> 12. Behind</strong> — atrás de <br>
+      The dog is behind the door (O cachorro está atrás da porta). <br>
+      <br>
+     <strong> 13. Between</strong> — entre duas coisas <br>
+      Rio de Janeiro is between Espírito Santo e São Paulo (Rio de Janeiro está entre o Espírito Santo e São Paulo). <br>
+      <br>
+      <strong>14. From </strong> — local de origem <br>
+      I am from Brazil (Eu sou do Brasil). <br>
+      <br>
+      <strong>15. Near</strong> — perto <br>
+      I live near here (Eu moro perto daqui). <br>
+      <br>
+      <strong>16. Through</strong> — através <br>
+      The rain entered through the window (A chuva entrou pela janela). <br>
+      <br>
+      <strong>17. Up</strong> — acima, para cima <br>
+      The girl climbed up the tree (a menina subiu na árvore) <br>
+      <br>
+     <strong> 18. About</strong> — sobre <br>
+      What are you talking about? (Sobre o que você está falando?) <br>
+      <br>
+     <strong> 19. Against</strong> — contra <br>
+      Never go against your heart. (Nunca vá contra seu coração.) <br>
+      <br>
+   <strong>   20. Down </strong> — para baixo <br>
+      Down to the rabbit hole. (descendo para a toca do coelho.) <br>
+      <br>
+     <strong> 21. Below</strong> — abaixo, debaixo <br>
+      The keys are below the mat. (As chaves estão debaixo do tapete.) <br>
+      <br>
+     <strong> 22. Under</strong> — embaixo, em
+      My pen was under the bed. (Minha caneta estava embaixo da cama.)</p>
+      <br>
+     <h2> As preposições em inglês mais usadas</h2>
+     <br>
+     <p> Existem algumas preposições em inglês que são muito usadas, e por isso, podemos dizer que são as principais desse idioma. Normalmente, elas estão incluídas em vários contextos e sentenças. Vamos conferir quais são. <br>
+      <br>
+      <strong>17. In (no, na, dentro de, em, de etc.)</strong> — indicam tempo e lugar <br>
+      I walk in the morning (Eu ando de manhã). <br>
+      <br>
+      She makes a meal in the kitchen (Ela faz uma refeição na cozinha). <br>
+      <br>
+      <strong>18. On (sobre a, em cima de, em, no, na, acima de etc.)</strong> — tempo específico, indica lugares, objetos e nomes <br>
+      I will go to the bank on Tuesday (Eu vou ao banco na terça-feira). <br>
+      <br>
+      My pen is on the table (Minha caneta está sobre a mesa). <br>
+      <br>
+      That man lives on Flowers’s street (Aquele homem mora na Rua das Flores). <br>
+      <br>
+      <strong>19. At (em, na, no etc.)</strong> — indica horário e locais específicos <br>
+      They arrived at 9 a.m. (Eles chegaram as nove da manhã). <br>
+      <br>
+      She sleeps at school (Ela dorme na escola). <br>
+      <br>
+     <strong> 20. To (para, a etc.)</strong> — duração de tempo, comparação, motivo, distância <br>
+      We are going to Europe (Nós estamos indo para a Europa). <br>
+      <br>
+      It’s about two blocks from the bank to his place (A casa dele fica a cerca de dois quarteirões do banco). <br>
+      <br>
+      I prefer going to the cinema to staying at college (Eu prefiro ir ao cinema a ficar na faculdade). <br>
+      <br>
+      <strong>21. For (para, durante, por etc.)</strong> — indicar tempo, finalidade ou motivo <br>
+      She has worked at market for tree years (Ela trabalhou no mercado por três anos). <br>
+      <br>
+      Fruits are good for my grandma (Frutas são boas para minha avó).</p>
+       </div>
+     </main2>
+   </header3>
+ <header4>
+   <main3>
+     <div class="fim">
+       <h3>grupo:</h3>
+       <p>matheus ferreira <br>Mayra Monteiro  <br>yasmin duarte <br>vitoria cavalcante <br>mardenia <br>
+      rikelmy <br> Thalita <br> Ádila</p>
+      <img src="img/twitter.png" alt="">
+      <img src="img/insta.png.png" alt="">
+      <img src="img/face.png" alt="">
+      <img src="img/whats.png" alt="">
+  
+     </div>
+   </main3>
+ </header4>
+
+ 
+
+
+</body>
+</html>

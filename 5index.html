@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Pronomes Pessoais</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<style>
+  body{
+   width: 100%;
+   height: 100%;
+   margin: 0 auto;
+ 
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}    
+.menu-principal{
+    background-color:rgb(51, 151, 197);
+    width: 100%;
+    display: inline-block;
+    height: 80px;
+}
+.header2{
+    height: 1100px;
+    width: 100%;
+    display: inline-block;
+}
+.materias{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display:inline-block;
+    border-bottom: 2px solid rgb(221, 213, 213);
+
+   
+}
+.materias ul li{
+    margin-left:30px ;
+    display: inline-block;
+ 
+}
+.materias ul li a{ 
+    color: rgb(122, 116, 116);
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family:Arial, sans-serif;
+
+}
+.materias:hover ul:hover li:hover a:hover{
+    background-color: #eeeaea1e;
+    border-bottom: 3px rgba(204, 195, 195, 0.801)solid;
+    padding: right 0; 
+    padding-left: 0;
+}
+input{
+    margin-top: 26px;
+    margin-left: 0;
+    background-color: rgb(248, 245, 245) ;
+    border: white 3px;
+    border-radius: 8px;
+    float: right; 
+    height: 25px;
+    width: 37%;  
+   
+} 
+input:hover{
+    border: 0;
+    background-color: #ffffff; 
+}
+.lupa{
+position: relative 10px ;
+    max-width: 25px;
+    float: right;
+    background-color: rgb(51, 151, 197);
+    margin-top: 26px;
+    
+}
+.menu-principal h1{
+    
+    color: whitesmoke;
+    margin-top: 26px;
+    padding: 0;
+   margin:0;
+    height: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float: left;
+      
+}
+.inicio{
+  margin:25% auto;
+    height: auto;
+    width: 75%;
+ margin-top: 9px;
+  
+    
+}
+.inicio h1{
+   margin-top: 2%;
+    color: rgb(77, 67, 57);
+    text-align:center;
+    font-family: blippo,fantasy;
+
+}
+.inicio h2{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inicio p{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   text-align:justify;
+ 
+    color: #6a6b6c;
+    font-size: 18px;
+    
+}
+@media only screen and (max-device-width: 768px) {
+    .menu-principal{
+        width: 100%;
+        height: 90px;
+        border-bottom: 2px solid rgb(221, 213, 213);
+
+    }
+    .menu-principal h1{
+        font-size: 25px;
+      
+    }
+    .menu-principal main{
+        width: 100%;
+
+    }
+}
+    @media only screen and (max-device-width: 768px) {
+     input{
+         width: 30%;
+         height: 20px;
+         margin-top: 30px;
+         padding: 0;
+         float:right;
+           
+    }
+    .lupa{
+        float: right;
+        margin-top: 30px;
+    }
+    }
+    
+    @media only screen and (max-device-width: 768px) {
+     .materias   { 
+         width: 100%;
+        height: 130px;
+       
+    
+        }
+        .materias ul{
+            padding:  gray;
+            text-align: center;
+         
+        }
+        .materias ul li{
+          
+            display:list-item;
+           
+            margin-left: 0;
+           list-style: none;
+           
+        }
+        .materias ul li a{
+            width: 100%;
+            font-size: 18px;
+            border-bottom: 1px solid;
+        
+        }
+    }
+    @media only screen and (max-device-width: 768px) {
+       .inicio h1 {
+          
+           text-align:center;
+           
+          
+        }
+    }
+    .fim{
+        width: 100%;
+        height: 270px;
+        background-color:#1c2e2e;
+    }
+    .fim h3 {
+        color:whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .fim p{
+        color:whitesmoke;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI',
+         Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       text-transform:capitalize;
+         
+    }
+   .fim img{
+      
+       float:right;
+      padding-right: 5px;
+   }
+   td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+</style>
+</head>
+<body>
+    <header class="menu-principal"> 
+      <h1>English Platform</h1>
+     
+      <main>
+     
+          <div>
+            
+            <form >
+              <img src="img/lupa.png" class="lupa">
+              <input type="search" id="texto">
+              
+             
+            </form>
+       </div>
+      </main>
+    </header>
+   <header2 class="menu">
+     <main1>
+      <div class="materias">
+  
+        <ul>
+         <li>
+           <a 
+           href="2index.html">Modais Básicos
+           </a>
+          </li>
+         <li>
+           <a 
+           href="3index.html">Preposições Mais comuns
+            </a>
+          </li>
+         <li>
+           <a
+           href="4index.html">Adjetivos Possessivos
+          </a>
+          </li>
+         <li>
+           <a
+            href="5index.html">Pronomes Pessoais
+          </a>
+          <li>
+            <a href="index.html"> Menu Principal</a>
+          </li>
+          </li>
+        </li>
+        </ul>
+     </main1>
+    </div>
+    </header2>
+   <header3> 
+     <main2>
+       <div class="inicio">
+         <h1>Pronomes Pessoais </h1>
+         <p> Pronomes pessoais em inglês (personal pronouns) são uma classe da gramática da língua inglesa que acompanha ou substitui o nome principal da frase.
+
+
+          Além disso, os pronomes pessoais em inglês têm a função de indicar a pessoa gramatical (1², 2² ou 3²) e o número (singular ou plural) do discurso. Assim, podem ser <strong>“I”, “You”, “He”, “She”, “It”, “We” e “They”</strong>. Esses representam os pronomes pessoais do sujeito.
+           Contudo, existem outros termos que funcionam como pronomes pessoais em inglês além dos citados. <br>
+           <br>
+            São eles <strong>“Me”, “You”, “Him”, “Her”, “It”, “Us” e “Them”. <br></strong>
+            <br>
+             Esses representam os pronomes pessoais do objeto.
+          As frases que contém um dos pronomes pessoais em inglês normalmente indicam lugares, objetos e pessoas.</p>
+     <p>Confira abaixo os pronomes pessoais em inglês e seus respectivos números, gêneros e pessoas gramaticais.</p>
+   
+     <h2>Divisões dos pronomes pessoais em inglês</h2>
+<p><strong>1.</strong> Pronome pessoal sujeito: usados como o sujeito antes do verbo: <br>
+<br>
+<br>
+  • I like your eyes. (Eu gosto dos seus olhos). <br>
+  • You are late. (Você está atrasado). <br>
+  • She is my best friend. (Ela é minha melhor amiga). <br>
+  • She is on holiday. (Ela está de férias). <br>
+  • We live in Tokyo. (Nós moramos em Tóquio). <br>
+  <br>
+<strong>  2.</strong> Pronome pessoal objeto: recebe a ação. Só pode ser admitido na frase se não estiver conjugando um verbo. Pode aparecer após o verbo ou após uma preposição. Também pode servir como complementos do verbo to be. <br>
+  <br>
+  <strong>Nota:</strong> os pronomes de objeto (me, he, she, we e they) podem ser usados como respostas curtas em conversas informais. <br>
+  <br>
+ <strong> Exemplos: <br></strong>
+  <br>
+  • That’s him. That’s the man I was talking about. (É ele. Esse é o homem que eu estava falando). <br>
+  • Can you help me, please? (Você pode me ajudar, por favor?) <br>
+  • I can see you. (Eu posso te ver). <br>
+  • She doesn't like him. (Ela não gosta dele). <br>
+  • I'll get it for you. (Eu vou pegar para você). <br>
+  • Give it to him. (Dê a ele). <br>
+  • I'll speak to them. (Eu falo com eles). <br>
+  • Who ate all the biscuits? Me. (Quem comeu todos os biscoitos?). <br>
+  <br>
+  <br>
+ <strong> I, me <br></strong>
+  <br>
+  <br>
+  As duas formas são usadas para fazer referência ao interlocutor, ou seja, àquele que fala. “I” é a forma de sujeito e “me” é a forma do objeto. <br>
+  <br>
+  <br>
+<strong>  Exemplos: <br></strong>
+  <br>
+  <br>
+  • I can come on Monday. (Eu posso ir na Segunda). <br>
+  <br>
+  • Juliet asked me to get some water. Juliet me pediu para pegar água. <br>
+  <br>
+  <br>
+  <br>
+<strong>  You <br></strong>
+  <br>
+  <br>
+  É o pronome usado para indicar a segunda pessoa do discurso. Em comparação com os pronomes da Língua Portuguesa equivale a “você”. <br>
+  <br>
+  <strong>Exemplos: <br></strong>
+  <br>
+  • What would you all like to drink? (O que todos vocês gostariam de beber?) <br>
+  • George, do you need help? (George, você precisa de ajuda?) <br>
+  <br>
+  <br>
+ <strong> He, him; she, her <br></strong>
+  <br> 
+  <br>
+  “He” (“ele”) e “she” (“ela) são pronomes da língua inglesa que correspondem à terceira pessoa do singular. “Him” (eles) e “her” (elas) são pronomes da terceira pessoa do plural. <br>
+  <br>
+  <br>
+ <strong> Exemplos: <br></strong>
+  <br>
+  • This is Jhon. He's my brother. I don't think you have met him. (Este é Jhon. Ele é meu irmão. Eu acho que você não conheceu ele). <br>
+  • This is Jenifer. She's my mom. Have you met her before? (Essa é Jenifer. Ela é minha mãe. Você conheceu ela antes?) <br>
+  <br>
+ <strong> It <br></strong>
+  <br>
+  <br>
+  Esse pronome é indicado para fazer referência às coisas, objetos e animais: <br>
+  <br>
+<strong> Exemplos: <br></strong>
+  <br>
+  • Look, Bob. It's my dog. (Olhe, Bob. Esse é o meu cachorro). <br>
+  • It’s so lovely to see you. (É tão lindo ver você). <br>
+  • We spent one week in Belgium. It’s a beautiful country. (Nós passamos uma semana na Bélgica. É um país lindo). <br>
+  <br>
+ <strong> We, us <br></strong>
+  <br>
+  <br>
+  Corresponde à terceira pessoa do plural. Refere-se às pessoas do discurso em que participam o interlocutor e os ouvintes. Equivale ao pronome “nós” em português. <br>
+  <br>
+  <br>
+  <strong>Exemplos: <br></strong>
+  <br> 
+  <br>
+  • We could see a film tomorrow. What do you think? (Nós poderíamos ver um filme amanhã. O que você acha?) <br>
+  • Pedro asked us if we’d drive to Brazil. (Pedro nos perguntou se nós íamos para o Brasil). <br>
+  <br>
+ <strong> They, them <br></strong>
+  <br>
+  <br>
+  São usados para grupos específicos de coisas, pessoas, animais, instituições ou autoridades. <br>
+  <br>
+<strong>  Exemplos: <br></strong>
+  <br>
+  • They are hungry. (Eles estão com fome). <br>
+  • They are afraid. (Eles estão com medo). <br>
+</p> 
+
+       </div>
+     </main2>
+   </header3>
+ <header4>
+   <main3>
+     <div class="fim">
+       <h3>grupo:</h3>
+       <p>matheus ferreira <br>Mayra Monteiro  <br>yasmin duarte <br>vitoria cavalcante <br>mardenia <br>
+      rikelmy <br> Thalita <br> Ádila</p>
+      <img src="img/twitter.png" alt="">
+      <img src="img/insta.png.png" alt="">
+      <img src="img/face.png" alt="">
+      <img src="img/whats.png" alt="">
+  
+     </div>
+   </main3>
+ </header4>
+
+ 
+
+
+</body>
+</html>
